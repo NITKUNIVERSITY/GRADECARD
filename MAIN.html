@@ -1,0 +1,1146 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+<head>
+  <title>Grade Card
+
+     |
+      NITK</title>
+
+  <meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="WJ9BQ7kVKodxPV3Hq+A+5nBz5e0b9LuyGH0oCVXLBfQzGeVAZDnYeGyZ8Oml0xGEtsIofAgDlUgcWKlI9VfOOQ==" />
+<link rel="shortcut icon" type="image/png" href="https://cdn.iris.nitk.ac.in/iris logo2.png" id="favicon" data-original-href="https://cdn.iris.nitk.ac.in/iris logo2.png">
+<meta name="author" content="Akshay Revankar (14EC206) - NITK Surathkal">
+<meta name="description" content="IRIS :: The online Student and Management Information System of NITK Surathkal. Admission Portal, Student and Faculty Portal, Online Course Learning Management and much more...">
+<!-- Global Site Tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-FNBH7GK3Z7"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-FNBH7GK3Z7');
+</script>
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<!-- Meta, title, CSS, favicons, etc. -->
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta http-equiv="Content-Language" content="en">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<link rel="image_src" href="https://cdn.iris.nitk.ac.in/iris logo2.png"/>
+<meta name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, shrink-to-fit=no"/>
+
+<!-- Disable tap highlight on IE -->
+<meta name="msapplication-tap-highlight" content="no">
+<link rel="stylesheet" href="https://cdn.iris.nitk.ac.in/design_system/assets/css/base.css?v=c13070a041d6ff4ec630478741b6a2e754f607ae">
+<link rel="stylesheet" href="https://cdn.iris.nitk.ac.in/design_system/iris_assets/css/jquery-ui/jquery-ui.css">
+
+<link rel="stylesheet" href="https://cdn.iris.nitk.ac.in/design_system/iris_assets/css/overrides.css?v=c13070a041d6ff4ec630478741b6a2e754f607ae">
+
+
+<link rel="stylesheet" id="dark_mode_css" href="https://cdn.iris.nitk.ac.in/design_system/iris_assets/css/dark-mode.css?v=c13070a041d6ff4ec630478741b6a2e754f607ae" disabled />
+<script src="https://cdn.iris.nitk.ac.in/design_system/iris_assets/js/dark-mode.js?v=c13070a041d6ff4ec630478741b6a2e754f607ae"></script>
+
+<link href="https://cdn.iris.nitk.ac.in/new_layout/vendors/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+
+<script src="https://cdn.iris.nitk.ac.in/design_system/iris_assets/js/jquery-3.4.1.min.js"></script>
+<script src="https://cdn.iris.nitk.ac.in/javascripts/cable.js"></script>
+<script src="https://cdn.iris.nitk.ac.in/design_system/iris_assets/vendors/select2-4.0.7/js/select2.min.js"></script>
+
+<!-- Entire dark mode script is placed before body element to avoid unselected theme flashes when loading -->
+<script>
+    user_theme = "light";
+
+      if (user_theme === "system") {
+          initialize_theme(user_theme);
+      }
+      else {
+          $("html").attr("data-theme", user_theme);
+      }
+</script>
+
+  <script src="https://cdn.iris.nitk.ac.in/javascripts/notification/notification_config.js"></script>
+  <script src="https://cdn.iris.nitk.ac.in/javascripts/notification/firebase-app.js"></script>
+  <script src="https://cdn.iris.nitk.ac.in/javascripts/notification/firebase-analytics.js"></script>
+  <script src="https://cdn.iris.nitk.ac.in/javascripts/notification/firebase-messaging.js"></script>
+
+
+</head>
+<body>
+<div class="app-container app-theme-gray app-fluid-container">
+
+  <div class="app-top-bar bg-royal top-bar-text-light">
+  <div class="container fiori-container padded-container">
+    <div class="top-bar-left">
+      <ul class="nav">
+        <li class="nav-item">
+          <a href="https://www.nitk.ac.in/" target="_blank" class="nav-link" rel="noopener noreferrer" alt="NITK emblem">
+            NITK Surathkal
+          </a>
+        </li>
+        <li class="nav-item">
+          
+        </li>
+      </ul>
+    </div>
+    <div class="top-bar-right">
+      <ul class="nav">
+        <li class="nav-item" style="  display: flex;
+            align-items: center;">
+          
+        </li>
+        <li class="nav-item">
+          <img src="https://cdn.iris.nitk.ac.in/csd.png" style="height: 40px" alt="CSD logo">
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+
+  <style>
+  .switch-theme-text {
+    background: none;
+    border: none;
+    outline: 0;
+    -moz-outline-style: none;
+    color: var(--toggle-dark-mode-text);
+  }
+
+  #button_theme_light {
+    background-color: #eeeeee;
+    border-color: #eeeeee;
+    color: #212529;
+  }
+
+  #button_theme_light:hover {
+    color: #212529;
+    background-color: #dbdbdb;
+    border-color: #d5d5d5;
+  }
+
+  [data-theme="dark"] .fa-bell {
+      color: rgb(250, 250, 250) !important;
+  }
+
+  .dropdown-menu {
+    border-radius: 0.5rem !important;
+    box-shadow: rgba(0, 0, 0, 0.21) 1px 0px 50px !important;
+    max-height: 90vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+  }
+</style>
+
+<style>
+  #loader {
+    z-index: 64000;
+    width: 100%;
+    position: fixed;
+    height: 100%;
+    top: 0;
+    right: 0;
+    background-color: black;
+    opacity: 0.2;
+  }
+
+  #loader-img {
+    z-index: 65000;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    display: table;
+    position: fixed;
+    background-color: var(--loader-img);
+    padding: 15px;
+    height: 65px;
+    width: 65px;
+
+  }
+
+  #loader-animation {
+    height: 50px;
+    width: auto;
+  }
+</style>
+<div class="loader" id="loader" style="display: none">
+</div>
+
+<div id="loader-img" class="rounded" style="display: none">
+  <img src="https://cdn.iris.nitk.ac.in/bars.svg" id="loader-animation">
+</div>
+
+
+<script>
+    $('#loader').appendTo('body');
+    $('#loader-img').appendTo('body');
+
+    function loaderStart() {
+        $("#loader").show();
+        $("#loader-img").show()
+    }
+
+    function loaderStop() {
+        $("#loader").hide();
+        $("#loader-img").hide();
+    }
+
+    $(document).ready(function () {
+        $(document).ajaxStart(function () {
+            loaderStart()
+        })
+            .ajaxStop(function () {
+                loaderStop()
+            });
+    });
+</script>
+
+
+<div class="app-header header-shadow">
+  <div class="container fiori-container padded-container">
+    <div class="app-header__mobile-menu">
+      <div>
+        <button type="button" class="hamburger hamburger--elastic mobile-toggle-nav">
+          <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+          </span>
+        </button>
+      </div>
+    </div>
+    
+      <!--Navigation Menu-->
+      
+
+    <div class="app-header-right">
+      <!--Search Bar-->
+      <div class="search-wrapper">
+        
+        
+      </div>
+
+      <!--Notification Icon-->
+        <div class="header-btn-lg pr-0">
+          <div class="header-dots">
+            <div class="dropdown" id="notifications-dropdown">
+              <button type="button" aria-haspopup="true" aria-expanded="false" data-toggle="dropdown" class="p-0 btn btn-link" onclick="fetchNotifications()">
+                <i class="fa fa-bell opacity-8" id="notif_bell"></i>
+              </button>
+              <span id="notif_indicator_dot" class="small" style="position: absolute; top: 0; right: 0; display: none">&#128308;</span>
+              <div tabindex="-1" role="menu" aria-hidden="true" class="dropdown-menu-xl rm-pointers dropdown-menu dropdown-menu-right shadow-lg" id="all-notifications">
+              </div>
+            </div>
+          </div>
+        </div>
+
+      <!--NITK Logo-->
+      <div class="header-btn-lg pr-0">
+        <a class="header-dots" href="https://www.nitk.ac.in/" target="_blank" rel="noopener noreferrer">
+          <img src="https://cdn.iris.nitk.ac.in/svg/emblem-compressed.svg" style="height: 2.3rem;" alt="NITK emblem">
+        </a>
+      </div>
+
+      <!--User Dropdown-->
+        <div class="header-btn-lg pr-0">
+          <div class="widget-content p-0">
+            <div class="widget-content-wrapper">
+              <div class="widget-content-left">
+                <div class="btn-group">
+                  <a data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
+                     class="p-0 btn">
+                        <img class="rounded" width="42" src="/hrms/students/get_profile_pic/19599?1666332606" />
+                    <em class="fa fa-angle-down ml-2 opacity-8"></em>
+                  </a>
+                  <div tabindex="-1" role="menu" aria-hidden="true"
+                       class="rm-pointers dropdown-menu-lg dropdown-menu dropdown-menu-right">
+                    <div class="dropdown-menu-header">
+                      <div class="dropdown-menu-header-inner bg-focus">
+                        <div class="menu-header-image opacity-2"
+                        >
+
+                        </div>
+                        <div class="menu-header-content text-left">
+                          <div class="widget-content p-0">
+                            <div class="widget-content-wrapper">
+                              <div class="widget-content-left mr-3">
+                                    <img class="rounded-circle" width="42" src="/hrms/students/get_profile_pic/19599?1666332606" />
+                              </div>
+                              <div class="widget-content-left">
+                                <div class="widget-heading">
+                                    Gutson 
+                                </div>
+                                <div class="widget-subheading opacity-8">
+                                </div>
+                              </div>
+                              <div class="widget-content-right mr-2" style="display: block">
+                                                           </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="scroll-area-xs" style="height: 200px;">
+                      <div class="scrollbar-container ps">
+                        <ul class="nav flex-column">
+                          
+                          
+                          
+                            
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+    </div>
+
+    <!--Phone resolution drop down-->
+    <div class="app-header__menu">
+      <span>
+        <button type="button" class="btn-icon btn-icon-only btn btn-primary btn-sm mobile-toggle-header-nav">
+          <span class="btn-icon-wrapper">
+            <em class="fa fa-ellipsis-v fa-w-6"></em>
+          </span>
+        </button>
+      </span>
+    </div>
+  </div>
+</div>
+
+  <script src="https://cdn.iris.nitk.ac.in/javascripts/notification/notification_manager.js"></script>
+
+<script>
+        $("#button_theme_light").prop("disabled", true);
+
+
+      $(document).ready(async () => {
+          if (Notification.permission === "granted") await update_device_activity();
+      });
+</script>
+
+
+  <div class="app-main">
+    <div class="app-main__outer">
+      <div class="app-main__inner">
+
+        <div class="app-page-title">
+  <div class="container fiori-container padded-container">
+    <div class="page-title-wrapper">
+      <div class="page-title-heading">
+        <div>
+          Grade Card
+
+           |
+            NITK    
+          <div class="page-title-subheading opacity-10">
+            <nav class="" aria-label="breadcrumb">
+              <ol class="breadcrumb">
+                <li class='breadcrumb-item'></li class='breadcrumb-item'>
+              </ol>
+            </nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="page-title-actions">
+
+            <div class="d-inline-block">
+
+                          </div>
+
+          <div class="d-inline-block dropdown">
+            
+            <div tabindex="-1" role="menu" aria-hidden="true"
+                 class="dropdown-menu dropdown-menu-right">
+              <ul class="nav flex-column " id="frequently-dropdown">
+              </ul>
+            </div>
+          </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+
+
+        
+<div class="app-inner-layout app-inner-layout-page app-layout-menu-default">
+    <div class="app-inner-bar">
+<div class="container fiori-container padded-container">
+<div class="inner-bar-left">
+<ul class="nav">
+  <li class="nav-item">
+    <a href="#" class="nav-link show-menu-btn">
+      <i class="fa fa-align-left mr-2 ml-2"></i>
+      <span class="hide-text-md">Compress</span>
+    </a>
+    <a href="#" class="nav-link close-menu-btn">
+      <i class="fa fa-align-right mr-2 "></i>
+      <span class="hide-text-md ml-2">Expand</span>
+    </a>
+  </li>
+</ul>
+</div>
+<div class="inner-bar-center">
+</div>
+
+</div>
+</div>
+
+
+          <div class="app-inner-layout__wrapper">
+            <div class="app-inner-layout__sidebar">
+  <div class="app-layout__sidebar-inner dropdown-menu-rounded">
+    <div class="nav flex-column">
+      <style>
+  #loader {
+    z-index: 64000;
+    width: 100%;
+    position: fixed;
+    height: 100%;
+    top: 0;
+    right: 0;
+    background-color: black;
+    opacity: 0.2;
+  }
+
+  #loader-img {
+    z-index: 65000;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    display: table;
+    position: fixed;
+    background-color: var(--loader-img);
+    padding: 15px;
+    height: 65px;
+    width: 65px;
+
+  }
+
+  #loader-animation {
+    height: 50px;
+    width: auto;
+  }
+</style>
+<div class="loader" id="loader" style="display: none">
+</div>
+
+<div id="loader-img" class="rounded" style="display: none">
+  <img src="https://cdn.iris.nitk.ac.in/bars.svg" id="loader-animation">
+</div>
+
+
+<script>
+    $('#loader').appendTo('body');
+    $('#loader-img').appendTo('body');
+
+    function loaderStart() {
+        $("#loader").show();
+        $("#loader-img").show()
+    }
+
+    function loaderStop() {
+        $("#loader").hide();
+        $("#loader-img").hide();
+    }
+
+    $(document).ready(function () {
+        $(document).ajaxStart(function () {
+            loaderStart()
+        })
+            .ajaxStop(function () {
+                loaderStop()
+            });
+    });
+</script>
+
+
+    
+
+  
+
+<script src="https://cdn.iris.nitk.ac.in/design_system/assets/js/vendors/form-components/moment.js"></script>
+<script src="https://cdn.iris.nitk.ac.in/design_system/assets/js/vendors/form-components/datepicker.js"></script>
+<script src="https://cdn.iris.nitk.ac.in/design_system/assets/js/vendors/form-components/daterangepicker.js"></script>
+
+      <hr>
+      
+      
+      <hr>
+      
+      
+    </div>
+  </div>
+</div>
+
+            <div class="container fiori-container" style="margin-top: 1rem">
+              <div class="alert-block">
+              </div>
+
+              
+<div class="main-card mb-3 card mt-4">
+  <div class="card-header">
+    <div class="card-header-title">
+      <i class="header-icon pe-7s-pin icon-gradient bg-love-kiss"> </i>
+      My Grade Card
+    </div>
+  </div>
+  <div class="card-body">
+    <div class="alert alert-warning fade show" role="alert"><strong>Note: These marks are provisional. There might be errors in the data given below.</strong></div>
+    
+<div style="overflow-x:auto;justify-content: center;">
+      <hr>
+      <h2 align="center">Major Programme Grade Card </h2>
+      <hr>
+      <table class="table table-striped table-hover grades">
+        <thead>
+        <tr>
+          <th>COURSE CODE</th>
+          <th>COURSE CATEGORY</th>
+          <th>COURSE TITLE</th>
+          <th>CREDITS</th>
+          <th>GRADE</th>
+        </tr>
+        </thead>
+        <tbody>
+            <tr>
+              <th colspan="5">
+                1ST SEMESTER
+                (2022 ODD
+                TERM)
+              </th>
+            </tr>
+              <tr>
+                <td>CS110</td>
+                <td>ESC</td>
+                <td class="grade_name">C Programming</td>
+                <td>
+                    3
+                </td>
+                <td>CC
+                </td>
+              </tr>
+              <tr>
+                <td>WO110</td>
+                <td>ESC</td>
+                <td class="grade_name">Engineering Mechanics</td>
+                <td>
+                    3
+                </td>
+                <td>DD
+                </td>
+              </tr>
+              <tr>
+                <td>MA110</td>
+                <td>BSC</td>
+                <td class="grade_name">Engineering Mathematics - I</td>
+                <td>
+                    3
+                </td>
+                <td>DD
+                </td>
+              </tr>
+              <tr>
+                <td>UC100</td>
+                <td>MLC</td>
+                <td class="grade_name">Introduction to Design Thinking</td>
+                <td>
+                    2
+                </td>
+                <td>S
+                </td>
+              </tr>
+              <tr>
+                <td>EC102</td>
+                <td>PC</td>
+                <td class="grade_name">Circuits and Systems</td>
+                <td>
+                    4
+                </td>
+                <td>BC
+                </td>
+              </tr>
+              <tr>
+                <td>CS111</td>
+                <td>ESC</td>
+                <td class="grade_name">C Programming Lab</td>
+                <td>
+                    2
+                </td>
+                <td>CD
+                </td>
+              </tr>
+              <tr>
+                <td>CV110</td>
+                <td>MLC</td>
+                <td class="grade_name">Environmental Studies</td>
+                <td>
+                    1
+                </td>
+                <td>S
+                </td>
+              </tr>
+              <tr>
+                <td>CY110</td>
+                <td>BSC</td>
+                <td class="grade_name">Chemistry</td>
+                <td>
+                    3
+                </td>
+                <td>DD
+                </td>
+              </tr>
+              <tr>
+                <td>CY111</td>
+                <td>BSC</td>
+                <td class="grade_name">Chemistry Laboratory</td>
+                <td>
+                    2
+                </td>
+                <td>BB
+                </td>
+              </tr>
+            <tr>
+              <th colspan="5">
+                <b>Semester Earned Credits: 23
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                  SGPA: 5.47
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                  Cummulative Earned Credits: 23
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                  CGPA: 5.47
+                </b>
+              </th>
+            </tr>
+        </tbody>
+      </table>
+      <hr/>
+</div>
+
+<style>
+  table.grades > thead > tr > th {
+    text-align: center;
+  }
+
+  table.grades > tbody > tr > th {
+    text-align: center;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+  }
+
+  table {
+    text-align: center;
+  }
+
+  .grade_name {
+    text-align: left;
+  }
+</style>
+  </div>
+</div>
+
+            </div>
+
+          </div>
+        </div>
+      </div>
+      <div class="app-wrapper-footer">
+  <div class="app-footer">
+    <div class="container fiori-container padded-container">
+      <div class="app-footer__inner">
+        <div class="app-footer-left">
+          <div class="footer-dots">
+            <div class="dropdown">
+              <a class="dot-btn-wrapper dd-chart-btn-2" aria-haspopup="true"
+                 data-toggle="dropdown" aria-expanded="false">
+                <i class="dot-btn-icon typcn typcn-chart-bar-outline text-danger"></i>
+                <div class="badge badge-dot badge-abs badge-dot-sm badge-warning">Warning
+                </div>
+              </a>
+              <div tabindex="-1" role="menu" aria-hidden="true"
+                   class="dropdown-menu-xl rm-pointers dropdown-menu">
+                <div class="widget-chart">
+                  <div class="widget-chart-content">
+                    <div class="icon-wrapper rounded-circle">
+                      <div class="icon-wrapper-bg opacity-9 bg-focus">
+                      </div>
+                      <i class="fa fa-globe text-white">
+                      </i>
+                    </div>
+                    <div class="widget-numbers">
+                      <span>
+                        Your IP : 10.50.19.235
+                      </span>
+                    </div>
+                  </div>
+                  <div class="widget-chart-wrapper">
+                    <div id="dashboard-sparkline-carousel-4-pop"></div>
+                  </div>
+                </div>
+                <ul class="nav flex-column">
+                  <li class="nav-item-divider mt-0 nav-item">
+                  </li>
+                  <li class="nav-item-btn text-center nav-item">
+                    <div class="dropdown user-switcher2">
+                    </div>
+
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="dots-separator"></div>
+            Server:
+            <div class="badge badge-success ml-0 ml-1">
+              # N1
+            </div>
+          </div>
+        </div>
+        <div class="app-footer-right">
+          <ul class="header-megamenu nav">
+            <li class="nav-item">
+              IRIS @ NITK Surathkal  2023
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade " id="tell-iris-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document" style="width: 50vh;">
+    <div class="modal-content">
+      <div class="modal-header" id="tell-iris-header">
+        <h2 class="modal-title" id="tell-iris-title" style="display: inline;"></h2>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body modal-body-content" id="tell-iris-body">
+      </div>
+      <div class="ajax-loader"></div>
+      <div class="modal-footer" id="tell-iris-footer">
+        <div class="modal-footer-content" style="display: inline;"></div>
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<script>
+    $('#tell-iris-modal').appendTo('body');
+</script>
+
+
+
+    </div>
+  </div>
+</div>
+
+<style>
+  [data-theme="light"] {
+    --ian-popup-header: #6770d2;
+    --ian-popup-content: #fff;
+    --ian-popup-text: #888;
+  }
+
+  [data-theme="dark"] {
+    --ian-popup-header: var(--primary);
+    --ian-popup-content: #262626;
+    --ian-popup-text: var(--text);
+  }
+
+  .fabs {
+    bottom: 0;
+    position: fixed;
+    margin: 1em;
+    right: 0;
+    z-index: 1500;
+  }
+
+  .chat_header {
+    /* margin: 10px; */
+    font-size: 13px;
+    font-family: 'Roboto';
+    font-weight: 500;
+    color: #f3f3f3;
+    height: 55px;
+    background: var(--ian-popup-header);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding-top: 8px;
+  }
+
+  .chat_header .span {
+    float: right;
+  }
+
+  .chat.is-visible {
+    opacity: 1;
+    display: block;
+    -webkit-animation: zoomIn .2s cubic-bezier(.42, 0, .58, 1);
+    animation: zoomIn .2s cubic-bezier(.42, 0, .58, 1);
+  }
+
+  .chat_option {
+    float: left;
+    font-size: 15px;
+    list-style: none;
+    position: relative;
+    height: 100%;
+    width: 100%;
+    margin-right: 10px;
+    letter-spacing: 0.5px;
+    font-weight: 400
+  }
+
+  .chat_option img {
+    border-radius: 50%;
+    width: 100px;
+    float: left;
+    margin: -23px 20px 10px 20px;
+    border: 4px solid rgba(0, 0, 0, 0.21);
+  }
+
+  .change_img img {
+    width: 35px;
+    margin: 0px 20px 0px 20px;
+  }
+
+  .chat_option .agent {
+    font-size: 12px;
+    font-weight: 300;
+  }
+
+  .chat_body {
+    background: var(--ian-popup-content);
+    width: 100%;
+
+    display: inline-block;
+    overflow-y: auto;
+
+  }
+
+  #chat_body {
+    height: 450px;
+  }
+
+  .chat_login p, .chat_body li, .chat_body p, .chat_body a {
+    -webkit-animation: zoomIn .5s cubic-bezier(.42, 0, .58, 1);
+    animation: zoomIn .5s cubic-bezier(.42, 0, .58, 1);
+  }
+
+  .chat_body p {
+    padding: 20px 40px 0px 40px;
+    color: var(--ian-popup-text);
+  }
+
+  @media (min-width: 991.98px) {
+
+    .chat {
+      position: fixed;
+      right: 30px;
+      bottom: 70px;
+      width: 400px;
+      font-size: 12px;
+      line-height: 22px;
+      display: none;
+      font-family: 'Roboto';
+      font-weight: 500;
+      -webkit-font-smoothing: antialiased;
+      font-smoothing: antialiased;
+      opacity: 0;
+      box-shadow: 1px 1px 100px 2px rgba(0, 0, 0, 0.22);
+      border-radius: 10px;
+      -webkit-transition: all .2s ease-out;
+      -webkit-transition: all .2s ease-in-out;
+      transition: all .2s ease-in-out;
+    }
+  }
+
+  /* PHONE */
+  @media (max-width: 991.98px) {
+    .chat {
+      position: fixed;
+      display: none;
+      width: 80%;
+      font-size: 12px;
+      line-height: 22px;
+      bottom: 40%;
+      left: 10%;
+      font-family: 'Roboto';
+      font-weight: 500;
+      -webkit-font-smoothing: antialiased;
+      font-smoothing: antialiased;
+      opacity: 0;
+      box-shadow: 1px 1px 100px 2px rgba(0, 0, 0, 0.22);
+      border-radius: 10px;
+      -webkit-transition: all .2s ease-out;
+      -webkit-transition: all .2s ease-in-out;
+      transition: all .2s ease-in-out;
+    }
+
+  }
+
+</style>
+
+
+<div class="fabs">
+  <div class="chat">
+    <div class="chat_header">
+      <div class="chat_option">
+        <div class="header_img">
+          <img src="https://cdn.iris.nitk.ac.in/ian.jpg"/>
+        </div>
+        <span id="chat_head"><b>Ian</b></span> <br> <span class="agent">IRIS Assistant</span>
+      </div>
+    </div>
+    <div class="chat_body chat_login">
+      <p>
+        Hi Gutson ! <br>
+        Our revised <b>Data Policy</b> is now in effect. These updates are to ensure the protection of data available on
+        IRIS.<br>
+        <b>Please view the policy to dismiss the message.</b><br>
+        <a href="https://iris.nitk.ac.in/privacy_policy" class="btn btn-outline-primary mt-2 " target="_blank">View</a>
+        <button class="btn btn-outline-secondary mt-2 " id="close-ian">Close</button>
+      </p>
+    </div>
+  </div>
+</div>
+
+
+<script>
+    var gdpr_viewed = true;
+      gdpr_viewed = true;
+
+    if (gdpr_viewed == false) {
+        $(".chat").addClass("is-visible")
+    }
+
+    $("#close-ian").on("click", function () {
+        $(".chat").removeClass("is-visible")
+    })
+</script>
+
+<!--SCRIPTS INCLUDES-->
+
+<!--CORE-->
+<script src="https://cdn.iris.nitk.ac.in/design_system/iris_assets/vendors/bootstrap/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.iris.nitk.ac.in/design_system/assets/js/scripts-init/app.js"></script>
+<script src="https://cdn.iris.nitk.ac.in/design_system/assets/js/scripts-init/demo.js"></script>
+
+<script src="https://cdn.iris.nitk.ac.in/design_system/iris_assets/js/jquery_ujs.js"></script>
+<script src="https://cdn.iris.nitk.ac.in/design_system/iris_assets/js/jquery-ui.js"></script>
+
+
+
+<!--TABLES -->
+<!--DataTables-->
+<link rel="stylesheet" type="text/css" href="https://cdn.iris.nitk.ac.in/design_system/iris_assets/vendors/datatables-1.10.19/datatables.min.css?v=c13070a041d6ff4ec630478741b6a2e754f607ae"/>
+<script src="https://cdn.iris.nitk.ac.in/design_system/iris_assets/vendors/datatables-1.10.19/jquery.dataTables.min.js?v=c13070a041d6ff4ec630478741b6a2e754f607ae"></script>
+<script src="https://cdn.iris.nitk.ac.in/design_system/iris_assets/vendors/datatables-1.10.19/dataTables.bootstrap4.min.js?v=c13070a041d6ff4ec630478741b6a2e754f607ae"></script>
+<script src="https://cdn.iris.nitk.ac.in/design_system/iris_assets/vendors/datatables-1.10.19/dataTables.responsive.min.js?v=c13070a041d6ff4ec630478741b6a2e754f607ae"></script>
+<script src="https://cdn.iris.nitk.ac.in/design_system/iris_assets/vendors/datatables-1.10.19/responsive.bootstrap.min.js?v=c13070a041d6ff4ec630478741b6a2e754f607ae"></script>
+<script type="text/javascript" src="https://cdn.iris.nitk.ac.in/design_system/iris_assets/vendors/datatables-1.10.19/pdfmake-0.1.36.min.js?v=c13070a041d6ff4ec630478741b6a2e754f607ae"></script>
+<script type="text/javascript" src="https://cdn.iris.nitk.ac.in/design_system/iris_assets/vendors/datatables-1.10.19/vfs_fonts.js?v=c13070a041d6ff4ec630478741b6a2e754f607ae"></script>
+<script type="text/javascript" src="https://cdn.iris.nitk.ac.in/design_system/iris_assets/vendors/datatables-1.10.19/datatables.min.js?v=c13070a041d6ff4ec630478741b6a2e754f607ae"></script>
+
+<!--Bootstrap Tables-->
+<script src="https://cdn.iris.nitk.ac.in/design_system/assets/js/vendors/tables.js"></script>
+
+<!--Tables Init-->
+<script src="https://cdn.iris.nitk.ac.in/design_system/assets/js/scripts-init/tables.js"></script>
+
+<script type="text/javascript">
+    function __highlight(s, t) {
+        var matcher = new RegExp("("+$.ui.autocomplete.escapeRegex(t)+")", "ig" );
+        return s.replace(matcher, "<strong>$1</strong>");
+    }
+
+    $.ui.autocomplete.prototype._renderItem = function (ul, item) {
+        //  item.label = item.label.replace(new RegExp("(?![^&;]+;)(?!<[^<>]*)(" + $.ui.autocomplete.escapeRegex(this.term) + ")(?![^<>]*>)(?![^&;]+;)", "gi"), "<strong>$1</strong>");
+        if (item.menutype == 'action')    {
+            return $("<li></li>")
+                .data("item.autocomplete",item)
+                .append("<a class='action'>"+ item.label +"</a>")
+                .appendTo(ul);
+        }
+        item.label = __highlight(item.label, this.term);
+        return $("<li></li>")
+            .data("item.autocomplete", item)
+            .append("<a>" + item.label + "</a>")
+            .appendTo(ul);
+    };
+
+    gotoLink = function(event,ui){
+        window.location.href = ui.item.value;
+        return false;
+    };
+    searchoptions = function (request,response){
+        var query=request.term;
+        var available_options = [
+            {"menu_type": "link", "value": "/hrms/students/adm_no/221EC218", "label": "View your profile"},
+            {"menu_type": "link", "value": "/hrms/courses/course_registration/3", "label": "Course Registration"},
+            {"menu_type": "link", "value": "/hrms/courses/course_registration/3", "label": "Pre Registration"},
+
+            {"menu_type": "link", "value": "/bechde/products", "label": "Bechde : View Products"},
+            {"menu_type": "link", "value": "/bechde/products/new", "label": "Bechde : Add new Product"},
+        ];
+
+        var options = $.ui.autocomplete.filter(available_options,query).slice(0,9);
+        response(options)
+    };
+
+
+    $(document).ready(function() {
+        $("input#autosuggest_menu_input").autocomplete({
+            source: searchoptions,
+            select : gotoLink,
+            focus: function(event, ui) { return false; }
+        });
+    });
+</script>
+
+
+<script>
+
+
+    var x = 1;
+    window.onresize = function () {
+        if (x == 1 && (((window.outerHeight - window.innerHeight) > 100) || ((window.outerWidth - window.innerWidth) > 100))) {
+            x = 0;
+            console.clear();
+            console.log("%cWarning message", "font: 2em sans-serif; color: yellow; background-color: red;");
+            console.log("%cYou have opened the Developer Tools.", "font: 1.5em sans-serif;");
+            console.log("\nWe are NOT responsible for any modifications you make to the DOM object.\nThis action and all further actions performed with Developer Tools opened will be logged.");
+            $.ajax({url: '/hrms/pages/log.js?control=' + 'students&act=' + 'my_grade_card'});
+        }
+    };
+    $(document).ready(function () {
+        if (x == 1 && (((window.outerHeight - window.innerHeight) > 100) || ((window.outerWidth - window.innerWidth) > 100))) {
+            x = 0;
+            $.ajax({url: '/hrms/pages/log.js?control=' + 'students&act=' + 'my_grade_card'});
+            console.log("%cWarning message", "font: 2em sans-serif; color: yellow; background-color: red;");
+            console.log("%cYou have opened the Developer Tools.", "font: 1.5em sans-serif;");
+            console.log("\nWe are NOT responsible for any modifications you make to the DOM object.\nThis action and all further actions performed with Developer Tools opened will be logged.");
+        }
+
+        var page_hits = JSON.parse(window.localStorage.getItem("hits"));
+        var page_titles = JSON.parse(window.localStorage.getItem("title"));
+
+
+        // get current URL path and assign 'active' class
+        var pathname = window.location.pathname;
+        $('.nav > a[href="' + pathname + '"]').addClass('active');
+
+
+        //***** LOCAL STORAGE CLEAR IF USER CHANGES ********//
+
+        if (!localStorage.getItem("user_id"))
+            localStorage.setItem("user_id", 20478);
+        else if (localStorage.getItem("user_id") !=20478) {
+            localStorage.clear();
+            page_titles = {};
+            page_hits = {};
+            window.localStorage.setItem("hits", JSON.stringify(page_hits));
+            window.localStorage.setItem("title", JSON.stringify(page_titles));
+            localStorage.setItem("user_id", 20478);
+        }
+
+
+        //***** FREQUENTLY VISITED SITES LOCAL STORAGE*****///
+
+        if (page_hits === null)
+            page_hits = {};
+
+        if (page_titles === null)
+            page_titles = {};
+
+        if (document.title != "IRIS") {
+
+            if (page_hits[pathname] === undefined)
+                page_hits[pathname] = 1;
+            else
+                page_hits[pathname] = page_hits[pathname] + 1;
+
+            if (page_titles[pathname] === undefined) {
+                page_titles[pathname] = document.title.replace("| IRIS", "")
+            }
+        }
+
+        window.localStorage.setItem("hits", JSON.stringify(page_hits));
+        window.localStorage.setItem("title", JSON.stringify(page_titles));
+
+
+        delete page_hits["/"];
+        delete page_hits["/hrms"];
+        delete page_hits["/hrms/"];
+
+
+        count = 0;
+        mostVisited = Object.keys(page_hits).sort(function (a, b) {
+            return page_hits [b] - page_hits [a]
+        });
+
+        if (mostVisited.length)
+            $('#frequent_card').show();
+
+        max_count = (mostVisited.length > 10) ? 10 : mostVisited.length;
+        while (count < max_count) {
+            if (!(typeof mostVisited[count] === undefined)) {
+                page_title = page_titles[mostVisited[count]];
+                if ($('#frequent_links').length) {
+                    $('#frequent_links').append(
+                        '<a class="mb-2 mr-2 btn-transition btn btn-outline-secondary" href="' + mostVisited[count] + '">' + page_title + '</a>'
+                    )
+                }
+                if ($('#frequently-dropdown').length) {
+                    $('#frequently-dropdown').append(
+                        '<a class="dropdown-item" href="' + mostVisited[count] + '">' + page_title + '</a>'
+                    )
+                }
+                count = count + 1;
+            }
+        }
+
+
+        // OVER RIDES of assets/js/app.js
+        // Removes the default open class
+        $(".close-menu-btn").on("click", function () {
+            $(".app-inner-layout-page").removeClass("app-layout-menu-open app-layout-menu-default");
+        });
+
+
+    });
+
+
+    // For Tell IRIS
+    var iris_maintainers = "7012"
+
+</script>
+
+<script>
+    gtag('set', { 'user_id': '221EC218' });
+    gtag('set', { 'dimension1': '221EC218' });
+
+    gtag('set', 'user_properties', {
+        'username' : '221EC218'
+    });
+</script>
+
+
+
+
+</body>
+</html>
